@@ -41,7 +41,7 @@ def google_test_for_partial_keyword_selenium():
             s_join = ''.join(i)
             if s_join not in EXCLUDE_LIST:
                 print(f"The word '{s_join}' may not be related to Selenium Testing Library")
-    print("All is done!")
+    print("Git Test!")
 
     driver.quit()
 
